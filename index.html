@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Capital Quest: Guess the Capitals</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        <audio controls autoplay loop style="display:none">
+            <source src="sound.mp3" >
+        </audio>
+        
+        <header>
+            <h1><span style="font-size: 1.6em;">C</span>apital <span style="font-size: 1.6em;">Q</span>uest </h1>
+        
+        </header>
+        <main>
+           <section id="questionSection">
+            <div id="question">
+                <p>What's the capital of <span id="countryName"></span>?</p>
+            </div>
+           </section>
+           <div id="line""></div>
+           <section id="optionsSection">
+            <div id="score">
+                <p>Score: <span id="scoreValue">0</span></p>
+            </div>
+            <div id="choices">
+                <div class="choice" id="choice1">Choice 1</div>
+                <div class="choice" id="choice2">Choice 2</div>
+                <div class="choice" id="choice3">Choice 3</div>
+                <div class="choice" id="choice4">Choice 4</div>
+            </div>
+            <div id="nextButton">
+                <button id="next">Next</button>
+            </div>
+           </section>
+        </main>
+    <script src="app.js"></script>
+    </body>
+
+</html>
